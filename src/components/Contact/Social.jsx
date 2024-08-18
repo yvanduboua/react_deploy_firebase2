@@ -11,18 +11,18 @@ import './Social.css'
 const Social = () => {
   return (
     <Container style={{padding: '30px'}}>
-    <Row>
+      <Row>
               <Col md={12} className="contact-social">
                 <div className='contact-text'>
-                <h1>FIND ME ON</h1>
+                <h1>TROUVEZ-MOI SUR</h1>
                 <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                N'hésitez pas à me contacter et à vous <span className="yellow">abonner.</span>
                 </p>
                 </div>
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/yvanduboua/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -62,8 +62,8 @@ const Social = () => {
                   </li>
                 </ul>
               </Col>
-            </Row>
-          </Container>
+      </Row>
+    </Container>
   )
 }
 
