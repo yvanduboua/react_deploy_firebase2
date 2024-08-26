@@ -30,8 +30,8 @@ const ProjectCard = (props) => {
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          alignContent: "space-between",
+          justifyContent: "center",
+          alignContent: "center",
         }}
       >
         <Card.Title>{props.title}</Card.Title>
@@ -55,8 +55,7 @@ const ProjectCard = (props) => {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
+        
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 

@@ -6,11 +6,12 @@ import {
   DiNodejs,
   DiGit,
 } from "react-icons/di";
+
 import {
   SiFlutter,
   SiCss3,
   SiDart,
-  SiMaterialui,
+  SiAngular,
   SiC,
   SiHtml5
 } from "react-icons/si";
@@ -53,8 +54,8 @@ const Techstack = () => {
         <div className="title">Css 3</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-        <div className="title">MaterialUi</div>
+        <SiAngular />
+        <div className="title">Angular</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
