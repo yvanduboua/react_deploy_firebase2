@@ -18,14 +18,14 @@ const About = () => {
             <Row>
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+                  A <span className="yellow"> PROPOS </span> DE MOI
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Salut, je suis <span className="yellow">TAGNE DUBOUA YVAN </span>
+                 Et je viens de <span className="yellow"> Douala, Cameroun.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                J'ai recement obtenu une Licence en <span className="yellow">GENIE  LOGICIEL</span> en 2023 à L'IUT de Douala
                 <br />
                 <br />
                   As a
