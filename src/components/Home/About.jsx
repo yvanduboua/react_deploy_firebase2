@@ -28,36 +28,16 @@ const About = () => {
                 J'ai recement obtenu une Licence en <span className="yellow">GENIE  LOGICIEL</span> en 2023 à L'IUT de Douala
                 <br />
                 <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
-                  <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                Je suis un développeur passionné spécialisé en <b className="yellow">React</b>, <b className="yellow">Flutter</b> et <b className="yellow">Firebase</b>.
                   <br />
                   <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
+                  Avec une expertise en <b className="yellow">HTML</b>, <b className="yellow">CSS</b> et <b className="yellow">JavaScript</b>, je crée des applications web et mobiles modernes et performantes.
                   <br />
                   <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
+                  Mon objectif est de transformer des idées en solutions <b className="yellow">innovantes</b>, tout en offrant une expérience utilisateur fluide et engageante.
+                  <br />
+                  <br />
+                  Explorez mes <b className="yellow">projets</b> pour découvrir comment je combine <b className="yellow">créativité</b> et <b className="yellow">technologie</b> pour réaliser des applications qui répondent aux besoins des utilisateurs.
                   <br />
                   
                 </p>

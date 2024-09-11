@@ -21,8 +21,19 @@ const Home = () => {
               </h1>
 
               <h1 className="heading-name">
-                Je suis
-                <strong className="main-name"> TAGNE DUBOUA YVAN</strong>
+                Je suis  <span> </span>
+                <strong className="main-name">
+                  <span className="float">T</span>
+                  <span className="float">a</span>
+                  <span className="float">g</span>
+                  <span className="float">n</span>
+                  <span className="float">e</span>
+                  <span> </span>
+                  <span className="float" aria-labelledby="float">Y</span>
+                  <span className="float" aria-labelledby="float">v</span>
+                  <span className="float" aria-labelledby="float">a</span>
+                  <span className="float" aria-labelledby="float">n</span>
+                </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
