@@ -50,14 +50,14 @@ const About = () => {
             </Row>
             <Row>
               <Col md={12} className="home-about-social">
-                <h1>FIND ME ON</h1>
+                <h1>TROUVEZ-MOI SUR</h1>
                 <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                N'hésitez pas à me contacter et à vous<span className="yellow">abonner.</span>
                 </p>
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/yvanduboua/" 
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -90,7 +90,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://leetcode.com/19sajib/"
+                      href="$"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"

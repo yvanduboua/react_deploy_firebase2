@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillBox from "../components/Skillset/SkillBox";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from '../assets/about.png'
 import Particle from '../components/Particle';
@@ -36,7 +37,7 @@ const Home = () => {
                 </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 20, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
@@ -50,6 +51,22 @@ const Home = () => {
               />
             </Col>
           </Row>
+        </Container>
+        <Container>
+                <h1 className="project-heading">
+                  <strong className="yellow">Compétences </strong> professionnelles
+                </h1>
+        
+                <SkillBox />
+                {/* <Techstack /> */}
+        
+                <h1 className="project-heading">
+                  <strong className="yellow">Outils</strong> Que j'utilise
+                </h1>
+                <Toolstack />
+        
+                {/* <Leetcode /> */}
+                {/* <Github /> */}
         </Container>
       </Container>
       <About />

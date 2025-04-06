@@ -282,7 +282,7 @@ h1 strong span:nth-child(5) { animation-delay: 0.5s; }
   }
   
   .home-header {
-    padding-top: 80px !important;
+    padding-top: 60px !important;
   }
   
   .home-section {
@@ -314,6 +314,7 @@ h1 strong span:nth-child(5) { animation-delay: 0.5s; }
   .main-name {
     display: inline-block;
     color: #7500fa;
+    font-size: 2em !important;
   }
   
   .Typewriter__wrapper {

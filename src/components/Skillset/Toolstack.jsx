@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiGithub,
@@ -8,30 +7,28 @@ import {
   SiNetlify
 } from "react-icons/si";
 
+import './SkillBox.css';
+
+
+const Tech = ({ Icon, title }) => {
+  return (
+      <div className="skill-box">
+        <Icon className="skill-icon" />
+        <h3 className="title">{title}</h3>
+      </div>
+  );
+};
+
 const Toolstack = () => {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-        <div className="title">VS Code</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-        <div className="title">Github</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-        <div className="title">Firebase</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
-        <div className="title">Netlify</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-        <div className="title">Heroku</div>
-      </Col>
-    </Row>
+
+    <div className="skills-container">
+      <Tech Icon={SiVisualstudiocode} title="VS Code" />
+      <Tech Icon={SiGithub} title="Github" />
+      <Tech Icon={SiFirebase} title="Firebase" />
+      <Tech Icon={SiNetlify} title="Netlify" />
+      <Tech Icon={SiHeroku} title="Heroku" />
+    </div>
   );
 }
 

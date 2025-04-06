@@ -1,0 +1,38 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les boxes */
+}
+
+.skill-box {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgb(89, 0, 190) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+    width: 165px; /* Largeur fixe */
+}
+
+.skill-box:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(117, 0, 250, 1) !important;
+}
+
+.skill-icon {
+    font-size: 60px; /* Ajustez la taille selon vos préférences */
+    color: white; /* Couleur de l'icône */
+    margin-bottom: 10px; /* Espacement entre l'icône et le titre */
+}
+
+.title {
+    
+}

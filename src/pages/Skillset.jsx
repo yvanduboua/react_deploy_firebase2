@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Particle from '../components/Particle'
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
+import SkillBox from "../components/Skillset/SkillBox";
 import Leetcode from "../components/Skillset/Leetcode";
 import Github from "../components/Skillset/Github";
 
@@ -16,15 +17,16 @@ const Skillset = () => {
           <strong className="yellow">Compétences </strong> professionnelles
         </h1>
 
-        <Techstack />
+        <SkillBox />
+        {/* <Techstack /> */}
 
         <h1 className="project-heading">
           <strong className="yellow">Outils</strong> Que j'utilise
         </h1>
         <Toolstack />
 
-        <Leetcode />
-        <Github />
+        {/* <Leetcode /> */}
+        {/* <Github /> */}
       </Container>
     </Container>
   )
