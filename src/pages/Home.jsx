@@ -1,5 +1,7 @@
+
 import React from 'react'
 import SkillBox from "../components/Skillset/SkillBox";
+import Toolstack from '../components/Skillset/Toolstack';
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from '../assets/about.png'
 import Particle from '../components/Particle';
