@@ -2,11 +2,11 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 import Particle from '../components/Particle'
-import Techstack from "../components/Skillset/Techstack";
+/*import Techstack from "../components/Skillset/Techstack";*/
 import Toolstack from "../components/Skillset/Toolstack";
 import SkillBox from "../components/Skillset/SkillBox";
-import Leetcode from "../components/Skillset/Leetcode";
-import Github from "../components/Skillset/Github";
+/*import Leetcode from "../components/Skillset/Leetcode";
+import Github from "../components/Skillset/Github"; */
 
 const Skillset = () => {
   return (
