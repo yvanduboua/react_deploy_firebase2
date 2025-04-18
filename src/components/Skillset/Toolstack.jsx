@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  SiVisualstudioCode,
+  SiVisualStudioCode,
   SiGithub,
   SiFirebase,
   SiHeroku,
@@ -23,7 +23,7 @@ const Toolstack = () => {
   return (
 
     <div className="skills-container">
-      <Tech Icon={SiVisualstudioCode} title="VS Code" />
+      <Tech Icon={SiVisualStudioCode} title="VS Code" />
       <Tech Icon={SiGithub} title="Github" />
       <Tech Icon={SiFirebase} title="Firebase" />
       <Tech Icon={SiNetlify} title="Netlify" />
